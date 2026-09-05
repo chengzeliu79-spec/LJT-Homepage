@@ -79,13 +79,13 @@ publication_category:
   conferences:
     title: 'Conference Papers'
 
-site_settings:
-  teaser                   :
-  breadcrumbs              : false
-  words_per_minute         : 160
-  future                   : true
-  read_more                : "disabled"
-  talkmap_link             : false
+# Site Settings
+teaser                   :
+breadcrumbs              : false
+words_per_minute         : 160
+future                   : true
+read_more                : "disabled"
+talkmap_link             : false
 comments:
   provider               : false
   disqus:
@@ -116,12 +116,19 @@ atom_feed:
   hide                   : false
   path                   :
 
-seo:
-  google_site_verification :
-  bing_site_verification   :
-  alexa_site_verification  :
-  yandex_site_verification :
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+alexa_site_verification  :
+yandex_site_verification :
 
+# Social Sharing
+twitter:
+  username               : &twitter
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
 social:
   type                   : Person
   name                   : Junteng Liu
@@ -135,11 +142,13 @@ social:
     - name: X
       url: https://x.com/junteng88716710
 
+# Analytics
 analytics:
   provider               : "false"
   google:
     tracking_id          :
 
+# Reading Files
 include:
   - .htaccess
   - _pages
@@ -177,14 +186,15 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-conversion:
-  markdown: kramdown
-  highlighter: rouge
-  lsi: false
-  excerpt_separator: "\n\n"
-  incremental: false
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
-markdown:
+# Markdown Processing
+kramdown:
   input: GFM
   hard_wrap: false
   auto_ids: true
