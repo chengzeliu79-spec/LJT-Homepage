@@ -13,8 +13,8 @@ title                    : "Junteng Liu"
 title_separator          : "-"
 name                     : &name "Junteng Liu"
 description              : &description "Personal homepage of Junteng Liu, PhD candidate at HKUST NLP Group"
-url                      : https://chengzeliu79-spec.github.io/LJT-Homepage # The base hostname & protocol for your site (project page)
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+url                      : https://chengzeliu79-spec.github.io # The base hostname & protocol for your site (project page)
+baseurl                  : "/LJT-Homepage" # the subpath of your site, e.g. "/blog"
 repository               : "chengzeliu79-spec/LJT-Homepage"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
