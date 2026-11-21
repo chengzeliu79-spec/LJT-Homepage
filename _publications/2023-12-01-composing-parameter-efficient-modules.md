@@ -1,0 +1,12 @@
+---
+title: "Composing Parameter-Efficient Modules with Arithmetic Operations"
+collection: publications
+category: conferences
+permalink: /publication/2023-12-01-composing-parameter-efficient-modules
+excerpt: 'Co-author. Composing parameter-efficient modules with arithmetic operations (NeurIPS 2023).'
+date: 2023-12-01
+venue: 'NeurIPS 2023'
+citation: 'Zhang, J., Chen, S., Liu, J., and He, J. (2023). "Composing Parameter-Efficient Modules with Arithmetic Operations." <i>NeurIPS 2023</i>.'
+---
+
+Composing parameter-efficient modules with arithmetic operations.
